@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     background-color: beige;
+    box-sizing: border-box;
+    border: 1px solid black;
 }
 
 .heading {
