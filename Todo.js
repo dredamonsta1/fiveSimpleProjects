@@ -4,3 +4,7 @@ const todoFunction = () => {
 
     console.log(todo, "hello todo");
 }
+
+const showValueFunction = () => {
+
+}
