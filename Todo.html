@@ -18,25 +18,26 @@
     <div class="input-area">
         <form>
             <label>Todo</label>
-            <input type="text" id="todoVal" class="todo">
+            <input type="text" id="todoVal" class="todo" placeholder="type todo" aria-placeholder="type place">
             <button type="button" onclick="todoFunction();">Submit</button>
-
         </form>
         <div class="added-task">
 
         </div>
     </div>
+
     <div class="the-list-header">
         <h3>Tasks remaining   </h3>
 
     </div>
-                    <ul class="the-list">
+                    <ul class="theList" id="theList">
                         <li><input type="checkbox" value="stuffValue"> 
-                            {{todo}} 
+                            <p id="todoVal">SAMPLE</p>
+                            <!-- {{todo}}  -->
                             <!-- <input type="button"> -->
                         </li>
-                        <li>stuff</li>
-                        <li>stuff</li>
+                        <!-- <li>stuff</li>
+                        <li>stuff</li> -->
                     </ul>
 </body>
 </html>
